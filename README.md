@@ -252,6 +252,10 @@ for e in range(0, n_epochs):
             valid_loss_min = valid_loss[e] #valid_loss 갱신
 
 ```
+#### loss와 accuracy 그래프로 확인
+
+ <img width="50%" src=""/>
+
 
 #### model test 
 
