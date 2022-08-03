@@ -163,7 +163,8 @@ criterion_A = nn.CrossEntropyLoss(normedWeights2)
 
 
 #### optimizer & scheduler
-````python3
+
+```python3
 optimizer_A = optim.Adam(model_A.parameters(), lr = 1e-4, weight_decay=1e-5)
 scheduler_A = optim.lr_scheduler.MultiStepLR(optimizer_A, milestones=[15,30,45], gamma=0.1, last_epoch=- 1, verbose=True)
 
@@ -254,7 +255,7 @@ for e in range(0, n_epochs):
 ```
 #### loss와 accuracy 그래프로 확인
 
- <img width="50%" src=""/>
+ <img width="50%" src="https://user-images.githubusercontent.com/70587454/182602366-a9fa4ac6-76e8-4993-898f-05695934365a.png"/>
 
 
 #### model test 
